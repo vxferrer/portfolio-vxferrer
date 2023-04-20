@@ -186,7 +186,6 @@ h3 {
 .services {
   color: var(--primary-color);
   margin-top: 40px;
-  font-size: 35px;
   font-weight: bold;
   padding: 10px;
 }
@@ -247,7 +246,7 @@ h3 {
 }
 
 .contact-button:hover {
-  transform: scaleX(1.1);
+  transform: scaleX(1.04);
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
   padding: 10px;
