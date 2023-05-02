@@ -23,6 +23,21 @@ a {
   justify-content: center;
 }
 
+.navigations {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.navigations a {
+  text-decoration: var(--link-decor);
+  margin: 20px;
+  padding: 20px 15px;
+  border-radius: 10px;
+  border: 2px solid #e19397;
+  box-shadow: var(--box-shadow);
+}
+
 /* hello page */
 
 .empty {
@@ -267,15 +282,161 @@ h3 {
 /* Resume page */
 
 .resume {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  max-width: 1200px;
+  width: 90%;
+  max-width: 1700px;
   color: var(--secondary-color);
   border: 2px solid var(--highlight-color);
   box-shadow: 1px 3px 7px 0px rgba(102, 102, 102, 1);
   border-radius: 10px;
-  margin: 50px;
+  margin: 35px;
   margin-top: 100px;
   padding: 15px;
+}
+
+/* portfolio */
+
+.port-title {
+  padding: 2%;
+  margin-left: 11.5%;
+}
+
+.portfolio {
+  color: var(--font-color);
+}
+
+.yoga-title {
+  font-size: 32px;
+  font-weight: bolder;
+  color: var(--secondary-color);
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.yoga-text {
+  font-size: 24px;
+  color: #fff;
+}
+
+.yoga-link {
+  color: var(--secondary-color);
+  border: 2px solid #e19397;
+  border-radius: 10px;
+  background-color: #e19397;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.yoga-link:hover {
+  transform: scale(1.1);
+  border-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+/* contact */
+
+.contact_form {
+  width: 460px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+}
+
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--primary-color);
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--primary-color);
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+label {
+  display: block;
+  float: center;
+}
+
+button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+}
+
+button p {
+  color: #fff;
+}
+
+span {
+  color: var(--primary-color);
+}
+
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+
+h1 {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: var(--primary-color);
+}
+
+h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #0e0e0e;
+}
+
+p {
+  font-size: 14px;
+  color: #0e0e0e;
+}
+
+::-webkit-input-placeholder {
+  color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+}
+
+.formulario input:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+.formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848;
 }
