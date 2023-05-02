@@ -263,3 +263,19 @@ h3 {
   box-shadow: 2px 8px 7px 0px rgba(102, 102, 102, 1);
   color: var(--primary-color);
 }
+
+/* Resume page */
+
+.resume {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  color: var(--secondary-color);
+  border: 2px solid var(--highlight-color);
+  box-shadow: 1px 3px 7px 0px rgba(102, 102, 102, 1);
+  border-radius: 10px;
+  margin: 50px;
+  margin-top: 100px;
+  padding: 15px;
+}
